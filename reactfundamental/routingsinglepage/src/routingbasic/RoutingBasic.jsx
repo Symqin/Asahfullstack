@@ -1,7 +1,7 @@
 import React from 'react';
-import { HomePage, AboutPage, ContactPage, Link } from './Page.jsx';
+import { HomePage, AboutPage, ContactPage, Link } from './PageBasic.jsx';
 
-class App extends React.Component {
+class RoutingBasic extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -54,4 +54,4 @@ class App extends React.Component {
 
 }
 
-export default App;
+export default RoutingBasic;
